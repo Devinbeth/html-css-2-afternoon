@@ -1,0 +1,132 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.navbar {
+    background: #333333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.navbar header img {
+	max-width:90%;
+    height:auto;
+    padding: 10%;
+    cursor: pointer;
+}
+
+.navbar button {
+    padding: 30px 20px;;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    background: #2EA9E1;
+}
+
+.content {
+    margin-left: 22%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 25px;
+    
+}
+
+.container:nth-last-of-type(even) {
+    background: linear-gradient(to bottom right, #333333, #2EA9E1);
+}
+.container h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.container h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #2EA9E1;
+}
+
+.container h3 {
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+}
+
+.container button {
+    padding: 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #2EA9E1;
+    text-align: left;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.tile {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 100px;
+}
+
+.tile_image {
+    height: 50px;
+    min-width: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+.tile_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.tile_content h4 {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.tile_content p {
+    padding: 10px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+#footer {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list div {
+    margin: 10px;
+}
+
+.list div:first-of-type {
+    color: #2EA9E1
+}
